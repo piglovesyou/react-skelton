@@ -32,7 +32,6 @@ var NotFound = React.createClass({
 module.exports = (
   <Route handler={App}>
     <DefaultRoute handler={Index} />
-    <Route handler={Index} name="index" path="home/pig/git/carbuncle-atom/index.html" />
     <Route handler={Setting} name="setting" path="setting" />
     <NotFoundRoute handler={NotFound} />
   </Route>
