@@ -3,13 +3,14 @@
   "version": "0.0.1",
   "main": "main.js",
   "scripts": {
-    "postinstall": "mkdir -p public/{js,css}; bower install",
+    "postinstall": "bower install",
     "watch": "gulp watch",
     "build": "gulp",
     "test": "eslint server.js src && gulp"
   },
   "dependencies": {
     "bower": "^1.3.12",
+    "browserify": "^9.0.3",
     "envify": "^3.2.0",
     "eslint": "^0.15.0",
     "flux": "^2.0.1",
